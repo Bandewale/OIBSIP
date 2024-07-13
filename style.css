@@ -1,99 +1,61 @@
 *{
     padding:0;
     margin:0;
-    box-sizing: border-box;
-    font-size: 25px;
+    box-sizing:border-box;
+    
 }
-.intro-image img{
-    width:100vw;
-}
-.heading{
-    position:relative;
-    left:25%;
-    bottom: 1020px;
-}
-h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 85px;
-    padding:3px;
-    margin:1px;
-    margin-top: 5%;
-}
-h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 95px;
-    padding:3px;
-    margin:2px;
-    margin-bottom: 8%;
-}
-h3{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px;
-    padding:3px;
-    margin:3px;
-}
-.aboutme img{
-     height:200px;
-     border-radius:50%;
-}
-.heading h3{
-    margin-bottom: 3%;
-}
-.aboutme{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:5%;
+.main{
     margin:auto;
-    position:relative;
-    right:25%;
-    width:700px;
-    margin-bottom: 4%;
-    font-size: 35px;
-}
-.skills,.education,.projects , .contact{
-    margin-top: -190px;    
-}
-.skills{
-    position:relative;
-    left:20%;
-    margin-bottom: 12%;
-    margin-top:-760px ;
-}
-.education ul li{
-   position: relative;
-    left:2%;
-    padding:5px;
-    margin:1%;
-}
-.education{
-    margin-bottom: 10%;
-    position:relative;
-    left:50%;
-    
-}
-.projects{
-   
-    margin-bottom: 15%;
-    
-    
-}
-.projects h3 , .conatct h3{
     padding:1%;
+    padding-left:10%;
+    font-size: xx-large;
+    width:100%;
+    max-width: 80%;
 
 }
-.projects ul li , .contact ul li{
-    position: relative;
-    left:2%;
-    padding:5px;
-    margin:1%;
+h1{
+  margin:3%; 
 }
-.c{
-    background-color: burlywood;
+.logic{
+    margin:5%;
+    padding:3%;
+    border:1px solid black;
+    max-width: 550px;
+    border-radius: 5%;
+    background-color:#BB9AB1;
+    border:1px solid white;
+    margin-left: 20%;
 }
-.contact{
+
+form input,select{
+    padding:1%;
+    height:60px;
+    width: 200px;
+    font-size: 25px;
+    margin:2%;
+    outline: 3px solid black;
     
-    position:relative;
-    left:40%;
-   
+}
+form input{
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-radius: 25%;
+    width:300px;
+}
+#submit{
+    cursor: pointer;
+    margin-top:13%;
+    border-radius: 25%;
+    background-color: rgb(231, 133, 14);
+}
+#submit:hover{
+    background-color: bisque;
+}
+p{
+    text-align: center;
+    margin-right: 6%;
+    font-weight: bold;
+    font-size:65px;
 }
